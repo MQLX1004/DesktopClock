@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="clock.com.mql.www.desktopclock">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/clock1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/clock1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_setting">
+        </activity>
+    </application>
+
+</manifest>
